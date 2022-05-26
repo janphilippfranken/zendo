@@ -1,0 +1,43 @@
+---
+title: "analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(lme4)
+library(tidyverse)
+
+data_exp_1 <- read_csv('../data/data_exp_1_long_format_450_trials.csv')
+data_exp_2 <- read_csv('../data/data_exp_2_long_format_210_trials.csv')
+```
+
+```{r}
+# accuracy 
+
+# exp 1 
+# subject model
+mod1sr <- lmer(acc_subj ~ init_rev + (1 | rule) + (1 | subject), data=data_exp_1)
+summary(mod1sr)
+
+mod1sn <- lmer(acc_norm ~ init_rev + (1 | rule) + (1 | subject), data=data_exp_1)
+summary(mod1sn)
+
+# exp 2
+# subject model
+mod1sr <- lmer(acc_subj ~ init_rev + (1 | rule) + (1 | subject), data=data_exp_2)
+summary(mod1sr)
+
+mod1sn <- lmer(acc_norm ~ init_rev + (1 | rule) + (1 | subject), data=data_exp_2)
+summary(mod1sn)
+```
+
+
+```{r}
+# positive tests
+pos_tests <- read_csv('../data/positive_test_long_format.csv')
+
+mod <- glmer(label ~ experiment + (1 | subject) + (1 | rule), data=pos_tests, family=binomial)
+summary(mod)
+```
+
+
