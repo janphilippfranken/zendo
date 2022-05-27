@@ -11,6 +11,8 @@ Lab Website: https://www.bramleylab.ppls.ed.ac.uk/
 
 ![My Image](writeup/doc_source/img/fig_1_zendo.pdf)
 
+<img src="/writeup/doc_source/img/fig_1_zendo.pdf" alt="Alt text" title="Optional title">
+
 Link to Experiment 1: http://zendo-cond-3.herokuapp.com/
 
 
