@@ -8,7 +8,7 @@ Personal Website: https://janphilippfranken.github.io/
 
 Lab Website: https://www.bramleylab.ppls.ed.ac.uk/
 
-![fig](writeup/doc_source/img/fig_1_send.pdf, "Optional title")
+![fig](writeup/doc_source/img/fig_1_zendo.pdf, "Optional title")
 
 Link to Experiment 1: http://zendo-cond-3.herokuapp.com/
 
