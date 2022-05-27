@@ -8,7 +8,7 @@ Personal Website: https://janphilippfranken.github.io/
 
 Lab Website: https://www.bramleylab.ppls.ed.ac.uk/
 
-![foxdemo](https://github.com/janphilippfranken/FrankenTheodoropoulosBramley2022/blob/main/writeup/doc_source/img/fig_1_zendo.pdf)
+(https://github.com/janphilippfranken/FrankenTheodoropoulosBramley2022/blob/main/writeup/doc_source/img/fig_1_zendo.pdf)
 
 Link to Experiment 1: http://zendo-cond-3.herokuapp.com/
 
