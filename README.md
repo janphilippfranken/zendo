@@ -1,4 +1,4 @@
-Data, model, and writeup for "Algorithms of Adaptation in Inductive Inference with Symbolic Concepts" (Fränken, Theodoropoulos, & Bramley). 
+Data, model, and writeup for "Algorithms of Adaptation in Inductive Inference" (Fränken, Theodoropoulos, & Bramley). 
 
 Correspondence: janphilipp.franken@gmail.com
 
