@@ -1,8 +1,8 @@
 Data, model, and writeup for "Algorithms of Adaptation in Inductive Inference" (Accepted for publication in Cognitive Psychology, 2022). 
 
 Authors:
-Jan-Philipp Fränken 
-Nik Theodoropoulos
+Jan-Philipp Fränken,
+Nikos Theodoropoulos,
 Neil Bramley 
 
 Correspondence: janphilipp.franken@gmail.com
